@@ -1,6 +1,6 @@
 modalID: 5
 title: Software Design
-subtitle: We want to use the most straight forward approach to complete each mission. Below are state diagrams depicting the logic of our software
+subtitle: We want to use the most straight forward approach to complete each mission. Below are state diagrams depicting the logic of our software.
 date: 2014-07-05
 img: roundicons.png
 preview: roundicons-preview.png
@@ -8,4 +8,4 @@ client: Start Bootstrap
 clientLink: "#"
 category: Logic for Completing each Rescue Mission
 description:
-    jhjhb
+    To pick up the first Ewok, Admiral Trackbar starts off with its left claw down and its right claw up. It uses the QSD sensor in its arm to detect the Ewok.
