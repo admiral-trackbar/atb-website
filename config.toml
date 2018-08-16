@@ -49,10 +49,10 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Admiral Trackbar"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
-    portfolio = "ABOUT TRACKBAR"
-    #services = "TIMELINE"
-    about = "TIMELINE"
+
+    portfolio = "OUR STORY"
+    services = "TIMELINE"
+    about = "TEAM"
     team = "FUN"
     contact = "MEDIA"
 
@@ -77,9 +77,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    #title = "Meet Admiral Trackbar!"
-    #subtitle = "An autonomous robot for rescuing ewoks!"
-    #buttonText = "Tell me more"
+    title = "Admiral Trackbar, winner of the Star Wars autonomous robot challenge!"
+    subtitle = ""
+    buttonText = "Tell me more"
 
   [params.portfolio]
     enable = true
