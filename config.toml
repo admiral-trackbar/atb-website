@@ -147,18 +147,12 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      name = "Chuan Du"
       scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
+        "What did you work on?"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Do we want?"""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -167,8 +161,10 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      name = "Forbes Choy"
+      scope = [
+        "What did you work on?"
+      ]
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -177,40 +173,28 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "Vladislav Pomogaev"
+      scope = [
+        "What did you work on?"
+      ]
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
 
-  # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+    [[params.team.members]]
+        img = "3.jpg"
+        name = "Vladimir Novakovic"
+        scope = [
+          "What did you work on?"
+        ]
+        social = [
+          ["fa-twitter", "#"],
+          ["fa-facebook", "#"],
+          ["fa-linkedin", "#"]
+        ]
 
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
 
   # Contact section
   [params.contact]
@@ -300,4 +284,3 @@ She worked at Pied Piper for years until they went belly up."""
     [[params.footer.quicklinks]]
       text = "Terms of Use"
       link = "#"
-
