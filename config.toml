@@ -50,7 +50,7 @@ googleAnalytics = ""
     brand = "Admiral Trackbar"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "OUR STORY"
+    services = "ABOUT TRACKBAR"
     portfolio = "TIMELINE"
     about = "TEAM"
     team = "FUN"
@@ -81,48 +81,20 @@ googleAnalytics = ""
     #subtitle = "It's nice to meet you"
     #buttonText = "Tell me more"
 
-
-  # Services section
-  [params.services]
-    enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-
-    [[params.services.row]]
-
-    [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-  # Portfolio section
   [params.portfolio]
     enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Meet Frankenbot"
+    subtitle = "Click the images below to learn more about the robot and our learning experience."
 
     [params.portfolio.modal]
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Close"
 
 
     # About section
