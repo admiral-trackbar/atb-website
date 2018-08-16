@@ -185,32 +185,6 @@ She worked at Pied Piper for years until they went belly up."""
         ["fa-linkedin", "#"]
       ]
 
-  # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
-
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
 
   # Contact section
   [params.contact]
@@ -300,4 +274,3 @@ She worked at Pied Piper for years until they went belly up."""
     [[params.footer.quicklinks]]
       text = "Terms of Use"
       link = "#"
-
