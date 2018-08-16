@@ -18,8 +18,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Team Admiral Trackbar"
+  description = "Ardmiral Trackbar is a robot built for ENPH 253."
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -50,11 +50,9 @@ googleAnalytics = ""
     brand = "Admiral Trackbar"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "OUR STORY"
-    portfolio = "TIMELINE"
-    about = "TEAM"
-    team = "..."
-    contact = "..."
+    aboutus = "MEET THE TEAM"
+    aboutcomp = "COMPETITION"
+    services = "THE ROBOT"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -67,10 +65,10 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
 
 
   # Hero section
