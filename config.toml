@@ -112,13 +112,13 @@ googleAnalytics = ""
       img = "1.jpg"
       date = "MAY 24 - JUNE 18"
       title = "Brainstorming"
-      description = "Our team stayed open-minded to wild ideas and proposed designs ranging from powering up the zipline, dropping bridges, to artificial neural networks. We found prototyping to be the best way to find out what works best."
+      description = "Our team stayed open-minded to wild ideas and proposed designs ranging from dropping bridges, to artificial neural networks. We found prototyping to be the best way to find out what works best."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "JUNE 20"
+      title = "Design Proposal"
+      description = "Delivered a presentation on our strategy and major mechanical, electrical, and software designs including torque calculations, power budget, control algorithms, gantt chart, and de-risking plans."
 
     [[params.about.events]]
       img = "3.jpg"
