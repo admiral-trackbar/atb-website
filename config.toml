@@ -149,7 +149,7 @@ googleAnalytics = ""
       img = "1.jpg"
       name = "Chuan Du"
       scope = [
-        "What did you work on?",
+        "What did you work on?"
       ]
       # For bio markdown and even multiline strings are available.
       bio = """Do we want?"""
@@ -163,10 +163,10 @@ googleAnalytics = ""
       img = "2.jpg"
       name = "Forbes Choy"
       scope = [
-        "What did you work on?",
+        "What did you work on?"
       ]
       scope = [
-        "What did you work on?",
+        "What did you work on?"
       ]
       social = [
         ["fa-twitter", "#"],
@@ -178,7 +178,7 @@ googleAnalytics = ""
       img = "3.jpg"
       name = "Vladislav Pomogaev"
       scope = [
-        "What did you work on?",
+        "What did you work on?"
       ]
       social = [
         ["fa-twitter", "#"],
@@ -190,7 +190,7 @@ googleAnalytics = ""
         img = "3.jpg"
         name = "Vladimir Novakovic"
         scope = [
-          "What did you work on?",
+          "What did you work on?"
         ]
         social = [
           ["fa-twitter", "#"],
