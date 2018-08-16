@@ -1,10 +1,13 @@
 modalID: 1
-title: Competition Details
-subtitle: The competition involves a sophisticated surface which our robot must navigate through and rescue ewoks along the way.
+title: The Challenge
+subtitle: A CAD model of our competition course.
 date: 2018-08-16
 img: roundicons.png
 preview: roundicons-preview.png
 client: Start Bootstrap
 clientLink: "#"
-category: Why rescue ewoks in the first place?
-description: Chewbacca and the Ewoks are hiding from the Stormtroopers. Our challenge is to design an autonomous robot to rescue them. To win the competition, we need to maximize the points earned in each rescue mission. 
+category: Graphic Design
+description:
+
+  <script src="https://embed.github.com/view/3d/admiral-trackbar/atb-website/tree/master/public/competition_surface.stl"></script>
+  <video src="/img/portfolio/meetfrankenbot/runThroughSmall.mp4" controls height="320" width="500" /> <br /><br />This year, robots would get 1 point for picking up an Ewok, and 2 points for picking up Chewbacca. To count as being picked up, the Ewoks and Chewbacca would either have to either remain on the robot untill it finished the competition, or they could stay in the starting region of the course, untill the end of the competition. Additionally, Ewoks that were in the starting region of the course when the competition was over would be designated as retrieved. An Ewok with the retrieved designation would add an additional 2 points, and retrieving Chewbacca would result in an additional 3 points. This means that retrieving and Ewok would be worth 3 points in total, and retrieving Chewbacca would be worth 5 points in total, giving the competition a maximum of 17 available points. <br /><br /> This year's competition surface required robots to be able to follow a black line, and detect gaps in order to pick up and return Ewoks. However, to reah more than just one Ewok, robots would need to have the ability to traverse a six inch wide gap to reach other parts of the competition surface. <br /><br /> The competition surface also included a circular cut out on the middle section which was coupled to an infrared beacon. The beacon would randomly alternate between a 1 kHz or a 10 kHz signal for approximately five seconds. The robots needed to be able to detect the signal and determine its frequency, because a signal of 10 kHz would signal that it was safe for the robot to cross through the archway. If a robot crossed the archway when the signal was at 1 kHz, the robot would break a laser beam, and this would trigger the rotoating platform to begin spinning. This would break the tape, and make it impossible for the robot to continue, the robot would have to restart. <br /><br /> To reach the final Ewok and Chewbacca, the robots would need to cross a gap that was six inches wide, but where the platform on the other side was also 2 inches higher than the starting platform. To make it more difficult the second platform was circular, so alignment was critical for crossing the second gap. Finally, the robot would need to use the edge on a flexible platform to navigate to get to Chewbacca, and have acess to the final zipline.
