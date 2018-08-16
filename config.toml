@@ -87,6 +87,7 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
+
     title = "The Story of Admiral Trackbar"
     subtitle = "Admiral Trackbar is an autonomous robot built for rescuing ewoks. Click the links below to learn more:"
 
@@ -100,18 +101,18 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "TIMELINE"
+    subtitle = "Admiral Trackbar went through complete redesign in the last five days leading up to the competition."
+    endpoint = "AUG 9 <br> Competition day!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "MAY 24 - JUNE 18"
+      title = "Brainstorming"
+      description = "Our team stayed open-minded to wild ideas and proposed designs ranging from powering up the zipline, dropping bridges, to artificial neural networks. We found prototyping to be the best way to find out what works best."
 
     [[params.about.events]]
       img = "2.jpg"
