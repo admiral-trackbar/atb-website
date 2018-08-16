@@ -51,8 +51,8 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     portfolio = "ABOUT TRACKBAR"
-    services = "TIMELINE"
-    about = "TEAM"
+    #services = "TIMELINE"
+    about = "TIMELINE"
     team = "FUN"
     contact = "MEDIA"
 
