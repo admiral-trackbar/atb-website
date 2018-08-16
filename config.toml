@@ -50,8 +50,8 @@ googleAnalytics = ""
     brand = "Admiral Trackbar"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "ABOUT TRACKBAR"
-    portfolio = "TIMELINE"
+    portfolio = "ABOUT TRACKBAR"
+    services = "TIMELINE"
     about = "TEAM"
     team = "FUN"
     contact = "MEDIA"
@@ -87,8 +87,8 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Meet Admiral Trackbot"
-    subtitle = "Click the images below to learn more about the robot and our learning experience."
+    title = "The Story of Admiral Trackbar"
+    subtitle = "Click below to learn more about the project:"
 
     [params.portfolio.modal]
       client = "Client"
