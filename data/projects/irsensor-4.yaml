@@ -7,8 +7,4 @@ preview: roundicons-preview.png
 client: Start Bootstrap
 clientLink: "#"
 category: Using IR sensor array helped us detect our enviorment.
-description: 
-
-In order to accurately determine the position the robot on the competition surface as well as the relative position of the ewoks to the robot, we built an IR sensor array, which provided us easy access to 8 distance measurements up to 30cm away.
-The array consists of an I2C analog to digital converter IC, eight IR LEDs, eight IR phototransistors, and some additional circuitry to make the ADC function. The array utilized dual JST connectors, and could be daisy-chained (linked in series), so that the final installation used as little wire as possible.
-The schematic and PCB layout of the array was created in KiCad. The production of the PCB was outsourced to ALLPCB, then assembled by our team. 
+description: hello
