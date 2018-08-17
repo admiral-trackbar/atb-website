@@ -1,6 +1,6 @@
 modalID: 5
 title: Software Design
-subtitle: We want to use the most straight forward approach to complete each mission. Below are state diagrams depicting the logic of our software.
+subtitle: Our plan is to consisently score 9 points in each round by picking up the first 3 Ewoks and have our robot return home. Below are state diagrams depicting the logic of our software.
 date: 2014-07-05
 preview: roundicons-preview.png
 client: Start Bootstrap
@@ -12,7 +12,36 @@ description:
 
     ### First Ewok Pick Up
 
+    Admiral Trackbar line follows until its QSD sensor in its left claw detects the first Ewok.
 
-    To pick up the first Ewok, Admiral Trackbar starts off with its left claw down and its right claw up. It uses the QSD sensor in its arm to detect the Ewok.
+    <IMG SRC="\img\portfolio\Software\first_ewok (3).jpg" height="512">
 
-    ![](atb-website\static\img\portfolio\Software\first_ewok (3).jpg "First Ewok")
+    In addition, it starts off with its left claw down and its right claw up. 
+
+    ### Second Ewok Pick Up
+
+    After picking up the first Ewok, Admiral Trackbar adjusts its position properly before crossing the first gap. Then, just like picking up the first Ewok, Admiral Trackbar uses its QSD sensor in its left claw to detect the second Ewok.
+
+    <IMG SRC="\img\portfolio\Software\second_ewok (1).jpg" height="1000">
+
+    Similar to picking up the first Ewok, Admiral Trackbar also has its left claw down and its right claw up when picking up the second Ewok.
+
+    ### Archway Crossing
+
+    To cross the archway safely, we maximize the amount of time for Admiral Trackbar to cross the archway by first detecting a 10 kHz signal from our IR Beacon, then waiting for a 1 kHz signal, and finally crossing the archway once the IR signal switches back to 10 kHz.
+    
+    <IMG SRC="\img\portfolio\Software\archway_cross.jpg" height="800">
+
+    Moreover, to cross the archway, we need to have both arms up.
+
+    ### Third Ewok Pick Up
+
+    Firstly, to not mix up the third Ewok with a Stormtrooper, we lowered Admiral Trackbar's left claw, while keeping its right claw up, after it first detects the front edge of the competition platform. Then, we have Admiral Trackbar to move backwards and pick up the third Ewok.
+
+    <IMG SRC="\img\portfolio\Software\third_ewok.jpg" height="600">
+
+    ### Returning Home
+
+    In summary, we have Admiral Trackbar reverse its position and line follow back to Start.
+
+    <IMG SRC="\img\portfolio\Software\return_home (1).jpg" height="512">
