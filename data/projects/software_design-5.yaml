@@ -1,14 +1,16 @@
 modalID: 5
 title: Software Design
-subtitle: Our plan is to consisently score 9 points in each round by picking up the first 3 Ewoks and have our robot return home. Below are state diagrams depicting the logic of our software.
+subtitle: Our plan is to consisently score 9 points in each round by picking up the first 3 Ewoks and have our robot return home. Below are state diagrams depicting the logic of our software
 date: 2014-07-05
-preview: roundicons-preview.png
+preview: visual_studio_code.png
 client: Start Bootstrap
 clientLink: "#"
 category: Logic for Completing each Rescue Mission
 description: 
 
   |
+
+    In summary the logic broken down into 4 sections: First Ewok Pick Up, Second Ewok Pick Up, Archway Crossing, Third Ewok Pick Up, and Returning Home.
 
     ### First Ewok Pick Up
 
