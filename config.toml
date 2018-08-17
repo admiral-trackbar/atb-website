@@ -89,7 +89,7 @@ googleAnalytics = ""
     # For more informtion take a look at the README.
 
     title = "The Story of Admiral Trackbar"
-    subtitle = "Admiral Trackbar is an autonomous robot that navigates using 3D printed treads, sees through infrared detection, and rescues Ewoks through servo powered arms. Trust in the iterative process and rigorous testing lead us to undergo a major redesign in the last five days of the time available. Admiral Trackbar prioritizes reliability and succeeded through consistent ewok rescuing on competition day. "
+    subtitle = "Admiral Trackbar is an autonomous robot that navigates using 3D printed treads, sees through infrared detection, and rescues Ewoks through servo powered arms. Trust in the iterative process and rigorous testing lead us to undergo a major redesign in the last five days of the time available. Admiral Trackbar prioritizes reliability and succeeded through consistent ewok rescues on competition day. "
 
     [params.portfolio.modal]
       client = "Client"
