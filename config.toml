@@ -97,7 +97,6 @@ googleAnalytics = ""
       category = "Category"
       buttonText = "Close"
 
-
     # About section
    [params.about]
     enable = true
