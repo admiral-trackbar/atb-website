@@ -51,8 +51,8 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
 
     portfolio = "OUR STORY"
-    services = "TIMELINE"
-    about = "TEAM"
+    #services = "ABOUT"
+    about = "TIMELINE"
     team = "FUN"
     contact = "MEDIA"
 
@@ -79,7 +79,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "Admiral Trackbar, winner of the Star Wars autonomous robot challenge!"
     subtitle = ""
-    buttonText = "Tell me more"
+    buttonText = "About"
 
   [params.portfolio]
     enable = true
@@ -99,7 +99,7 @@ googleAnalytics = ""
 
 
     # About section
-  [params.about]
+   [params.about]
     enable = true
     title = "TIMELINE"
     subtitle = "Admiral Trackbar went through complete redesign in the last five days leading up to the competition."
