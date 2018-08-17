@@ -1,0 +1,20 @@
+modalID: 7
+title: Lift Mechanism
+subtitle: The scissor lift mechanism
+date: 2014-07-05
+img: roundicons.png
+preview: roundicons-preview.png
+client: Start Bootstrap
+clientLink: "#"
+category: An overview of the lift <br /> mechanism we designed
+description:
+|
+
+    ###### Scissor Lift Mechanism
+    A video of a scissor lift prototype, this scissor lift was slow because it was not receiving the correct power, but the bigger problem was the play visible in it. Through experimentation we discovered that this was due to us using Lexan which is rather flexible, and that we did not have any connections between the two different sides of the scissor lift.
+    <br /> <video src="/portfolio/Lifts/ScissorLiftSlop.mov" controls height="320" width="500" /> </video>
+    <br /><br />Unfortunately we did not take a video of the scissor lift once we eliminated the slop.
+
+    <br /><br />Our original strategy was to pick up ewoks, and put them into a basket. After we had picked up all of the ewoks, we would use a scissor lift mechanism to raise the basket to the zipline, and allow it to send the ewoks to safety. The scissor lift went through a few iterations to optimize its geometry, and the materials. However, the lead screw and nut mechanism which allowed us to translate a motors rotational motion into linear motion, was the most difficult part to design. The lead screw itself was relatively straight forward, but in trying to design the nut we tried processes from 3d printing to water jet cutting, and materials ranging from sheet metal to high density polyethylene.
+
+    <br /><br />In the end we did not end up using the scissor lift on the robot because we decided that it would be simpler, and likely more robust to just drive the ewoks back to the begining.

@@ -1,0 +1,25 @@
+modalID: 6
+title: The Claws
+subtitle: We originally had a front facing claw, but redesigned the robot to use two side claws instead
+date: 2014-07-05
+preview: roundicons-preview.png
+client: Start Bootstrap
+clientLink: "#"
+category: Description of our original claw design, and our redesign
+description:
+|
+
+    ##### The Original Claw design
+    Here there are a few videos that show what the first claw design looked like.
+    <br /> <video src="/portfolio/Claws/FrontClawOverview.mov" controls height="320" width="500" /> </video>
+    <br /> <video src="/portfolio/Claws/FrontClaw.mov" controls height="320" width="500" /> </video>
+
+    <br /><br />The front facing claw was designed to accomodate 3 IR arrays. A forward facing array was used for ewok detection while the side arrays were used for edge detection. For simplicity, there were only two servos for two axes of movement. The base standard servo moved the arm up and down and another servo opened and closed the claw. The base servo  was modified to have continuous rotation. Its position was controlled by PID and a potentiometer encoder. The main mechanical challenges were obtaining sufficient torque through gear reduction, and machining a shaft to mount the encoder such that the arm and the encoder would move simultaneously to track position accurately.
+
+    ##### Our Redesign
+    Here is a quick video of the side claws in action, with a prototype mounting system.
+    <br /> <video src="/portfolio/Claws/SideClaw.mov" controls height="320" width="500" /> </video>
+
+    <br /><br />The single front claw design required that the robot to be re calibrated whenever it was exposed to a new environment because it was reliant on the IR arrays, and this was making our testing difficult. We would make progress, but then lose all reliability as soon as the lighting changed. In an attempt to make the robot more robust, we experimented with a two claw design that would not need to rely on IR arrays to find the Ewoks. The way the side claws solved this issue was that they made it so that the robot did not need to search for Ewoks, or align itself with the Ewoks, as by simply following the line it would put itself into the correct position to pick up ewoks. This design allowed us to consistently pick up the ewoks, regardless of the lighting condition. As a result, we were free to focus our time on tuning how all of the systems of the robot would interact. In the end this gave us a reliable robot.
+
+    <br /><br />This design change was implemented in the last 5 days of the competition, because we believed that it was better to take a risk on a new design that has a lot of potential, rather than keep working towards a design that did not show much promise.
