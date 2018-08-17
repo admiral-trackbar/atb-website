@@ -183,7 +183,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-        img = "3.jpg"
+        img = "4.jpg"
         name = "Vladimir Novakovic"
         scope = [
           "What did you work on?"
