@@ -1,17 +1,23 @@
 modalID: 1
 title: The Challenge
-subtitle: A CAD model of our competition course.
+subtitle: A brief description of this year's challenge
 date: 2018-08-16
 preview: comp.jpg
 client: Start Bootstrap
 clientLink: "#"
 category: A brief description of this year's challenge
 description:
+|
 
-    <br /> <br /> <script src="https://embed.github.com/view/3d/NovakovicV/CompSurface/master/CompSurface.stl"></script>
-    <br /> <br /> <video src="/portfolio/CompSurface/CompFinals.mov" controls height="320" width="500" /> </video>
+    ##### An interactive CAD model of this year's competition surface
+    <script src="https://embed.github.com/view/3d/NovakovicV/CompSurface/master/CompSurface.stl"></script>
 
-    <br /><br /> This year, robots would get 1 point for picking up an Ewok, and 2 points for picking up Chewbacca. To count as being picked up, the Ewoks and Chewbacca would either have to either remain on the robot untill it finished the competition, or they could stay in the starting region of the course, untill the end of the competition. Additionally, Ewoks that were in     the  starting region of the course when the competition was over would be designated as retrieved. An Ewok with the retrieved designation would add an additional 2 points, and retrieving Chewbacca would result in an additional 3 points. This means that retrieving and Ewok would be worth 3 points in total, and retrieving Chewbacca would be worth 5 points in total, giving the competition a maximum of 17 available points.
+    ##### Admiral Trackbar Competing in the Finals
+    To provide a better sense of the competition surface, and how Admiral Trackbar traversed it, we povided a video below of Admiral trackbar completing the challenge in the final competition.
+    <br /> <video src="/portfolio/CompSurface/CompFinals.mov" controls height="320" width="500" /> </video>
+
+    ##### Quick Challenge Overview
+    This year, robots would get 1 point for picking up an Ewok, and 2 points for picking up Chewbacca. To count as being picked up, the Ewoks and Chewbacca would either have to either remain on the robot untill it finished the competition, or they could stay in the starting region of the course, untill the end of the competition. Additionally, Ewoks that were in     the  starting region of the course when the competition was over would be designated as retrieved. An Ewok with the retrieved designation would add an additional 2 points, and retrieving Chewbacca would result in an additional 3 points. This means that retrieving and Ewok would be worth 3 points in total, and retrieving Chewbacca would be worth 5 points in total, giving the competition a maximum of 17 available points.
 
     <br /><br /> This year's competition surface required robots to     be able to follow a black line, and detect gaps in order to pick up and return Ewoks. However, to reah more than just one Ewok, robots would need to have the ability to traverse a six inch wide gap to reach other parts of the competition surface.
 
